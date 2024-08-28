@@ -1,0 +1,20 @@
+1. pip install virtualenv 
+2. python -m venv env 
+3. Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+4. .\env\Scripts\Activate 
+5. pip install django
+
+(OR)
+
+pip install virtualenv; python -m venv env; Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force; .\env\Scripts\Activate; pip install django;django-admin startproject myproject;cd myproject;django-admin startapp myapp;cd ../;code .
+
+
+django-admin startproject myproject
+django-admin startapp myapp
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+
+
+
+
